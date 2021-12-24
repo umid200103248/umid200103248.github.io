@@ -1,0 +1,369 @@
+body{
+    margin: 0 auto;
+    background-color:beige;
+}
+nav{  display: flex;
+    justify-content: center;
+
+}
+#top {
+    padding: 10px;
+    height: 50px;
+    /* position: fixed; */
+    /* background: white; */
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 2px solid #00000069; */
+    min-width: 1540px;
+}
+
+#top a{
+    text-decoration: none;
+    color: rgb(226, 176, 10);
+    padding: 50px;
+    border-radius: 80px;
+    font-size: 27px;
+    padding-top: 25px;
+}
+
+#top a:hover, label:hover{
+    color: red;
+}
+.info{
+    display: flex;
+    margin-left: 270px;
+}
+#logo{
+    margin-top: -12px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    background-color: rgba(10, 10, 10, 0.9);
+    /* width: 100%; */
+    /* background-color: black; */
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 360px;
+  }
+.first{
+    text-align: center;
+    /* margin-top: 50px;
+    margin-left: 75px; */
+    
+}
+#italic{
+   display: flex;
+   justify-content: center;
+}
+.infoi{
+    width: 1300px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+     display: flex;
+     justify-content: center;
+     padding: 15px;
+     font-size: x-large;
+}
+.infoa{
+    width: 1400px;
+    margin-left: 50px;
+     padding: 15px;
+     font-size: x-large;
+}
+  
+   * {
+    box-sizing: border-box;
+  }
+  .photos{
+      padding: 30px 100px;
+  }
+   
+  .row1 > .column1 {
+    padding: 0 4px;
+  }
+  
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   */
+  .column1 {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal1 {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content1 {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* .close:hover, */
+  /* .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 22px;
+    padding: 19px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+   hr{
+       width: 1300px;
+   }
+   .per{
+       display: flex;
+   }
+   #naruto, #mikasa, #genos{
+       position: relative;
+   }
+   .active{
+    opacity: 1;
+    transform: scale(1);
+}
+.boy> div>img, .boy1> div>img{
+    height: 200px;
+}
+#naruto2{
+    transition: transform 2s;;
+}
+#naruto2:hover{
+    transform: rotate(360deg);
+}
+.tur{
+    display: flex;
+}
+.tur>p{
+    height: 375px;
+     width: 750px;
+}
+.kart{
+    display: flex; 
+    justify-content: center;
+}
+/* .goroda{
+    display: none;
+} */
+/* #rasengan{
+    margin-right: 400px;
+    margin-top: -4000px;
+} */
+label{
+    display: none;
+}
+#toggle{
+    display: none;
+}
+
+@media(max-width:700px){
+    label{
+       display: block;
+    }
+
+    #toggle:checked + .header{
+        display: none;
+    }
+    #toggle:checked + .general{
+        margin-bottom:150px;
+    }
+    
+
+    #top a{
+        border-bottom: 1px solid black;
+        font-size: 23px;
+        text-align: center;
+        padding: 10px;
+    }
+#top{
+    min-width: 400px;
+}
+#top{
+    display: block;
+    justify-content: center;
+}
+#logo{
+    display: none;
+}
+#top1>a{
+display:block;
+/* text-align: center; */
+}
+#top2>a{
+    display:block;}
+.first>img{
+    width: 400px;
+    height: 300px;
+}
+.infoi{
+    display:block;
+    width: 400px;
+    margin-left: 5px;
+    font-size: x-small;
+}
+.column1{
+    width: 200px;
+    display: block;
+    
+}
+.modal1{
+    width: 30%;
+    height: 35%;
+}
+.fight >img{
+   width: 48%;
+}
+#nin1{
+   width: 350px;
+   height: 80px;
+}
+#nin{
+    width: 150px;
+}
+.boy> div>img, .boy1> div>img{
+    height: 50px;
+    width: 100px;
+}
+.op{
+    font-size: xx-small;
+}
+.per>div>img{
+    width: 130px;
+}
+iframe{
+    width: 400px;
+    height: 300px;
+}
+.infoa{
+    width: 400px;
+    font-size: x-small;
+    margin-left: -10px;
+}
+.tur{
+    display: block;
+}
+.tur>p{
+    width: 400px;
+    height: 160px;
+}
+.tur>img{
+    width: 400px;
+    height: 250px;
+}
+.kart{
+display: block;
+}
+.kart>img{
+width: 400px;
+}
+#alm{
+    display: none;
+}
+.general{
+    padding-top: 140px;
+}
+hr{
+    width: 300px;
+}
+}

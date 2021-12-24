@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    padding: 120px;
+    background: url("https://turkiapro.ru/wp-content/themes/dt-the7/images/backgrounds/patterns/full/gplaypattern.jpg");
+}
+
+section {
+    background: white;
+    height: 24650px;
+    /* padding: 130px; */
+    box-shadow: 0 20px 27px rgba(000, 000, 000, 0.1);
+}
+
+main {
+    padding: 60px;
+}
+
+.logo{
+    margin: 0;
+    width: 350px;
+    height: 120px;  
+    padding-top: 0;
+    flex: 1;
+    margin-left: 30px!important; 
+    /* height: 150px; */
+}
+
+header {
+    margin: 0 130px 50px 130px!important;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+
+.container_new, .links-new {
+    padding: 50px;
+}
+
+.social{
+    height: 40px;
+    margin-left: 10px;
+}
+.links-new{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.links-new > a:hover {
+    transition: ease-in-out 0.4s; 
+    transform: translateY(-5px);
+}
+
+a{
+    text-decoration: none !important;
+    display: inline-block;
+    color: white !important;;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.item-list{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    
+}
+
+.menu{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+background-color: #bc1823;
+padding: 0;
+margin: 0;
+width: 100%;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    display: block;
+}
+.section{
+    display: block;
+    width: 100%;
+}
+.item-list{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+}
+
+a:hover{
+  color: black !important;
+}
+ .about-turkey{
+     color: black;
+     font-size: 52px;
+     text-align: center;
+ }
+
+.paragraph{
+font-size: 20px;
+}
+
+.abtr{
+    width: 1400px;
+}
+
+footer{
+    background-color: #1d1819;;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.footer-find{
+    margin-left: 130px;
+}
+
+input{
+   width: 260px;
+   padding-left: 15px;
+}
+
+.header{
+    font-size: 50px;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 25px;
+}
+
+.inf-list{
+    font-size: 30px;
+    
+}
+
+.list{
+    font-size: 30px;
+    font-weight: 200px;
+}
+
+.Turkey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.interesting{
+background-color:darkturquoise;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#demo > .carousel-inner > div > img {
+    width: 1179px!important;
+    height: 690px;
+}
+
+#carouselExampleCaptions > .carousel-inner > div > img {
+    width: 800px;
+    height: 500px;
+}
+
+.shehir{
+    font-size: 40px;
+    text-align: center;
+}
+
+.mazmuny{
+    background-color:mediumturquoise;
+    width: 80%;
+   
+}
+
+.Ankara{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Istanbul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pogoda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.Izmir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.cooking {
+    margin-bottom: 5rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 25rem;
+}
+
+.card {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    background-color:aliceblue!important;
+    margin-bottom: 2rem;
+}
+
+.card .image {
+    height: 15rem;
+    width: 100%;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.image img {
+    backface-visibility: hidden;
+}
+
+.card .image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.description {
+    padding: 1rem;
+}
+
+.description a {
+    color: black!important;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.description a:hover {
+    color: rgb(0, 121, 121)!important;
+    transition: all 0.3s linear;
+}
+
+@media(max-width: 600px){
+    main {
+        margin: 0 0 0 0 ;
+    }
+    section{
+        margin-left: 45px ;
+    }
+    .logo{
+        margin: 0;
+        width: 350px;
+        height: 120px;  
+        padding-top: 0;
+        flex: 1;
+        margin-left: 30px!important; 
+        /* height: 150px; */
+    }
+    
+    header {
+        margin: 0 0 0 0 !important;
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        align-items: center;
+    }
+    section {
+        height: 55250px;
+        width: 460px;
+        box-shadow: 0 0 0 rgba(000, 000, 000, 0.1);
+    }
+
+    img{
+        width: 100%;
+        height: 280px;
+    }
+    /* img :not(.social){
+        width: 380px;
+    } */
+    .social{
+        display: none;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .carousel img{
+        width: 100%;
+    }
+
+    body{
+        margin: 0;
+        padding: 15px;
+        background: url("https://turkiapro.ru/wp-content/themes/dt-the7/images/backgrounds/patterns/full/gplaypattern.jpg");
+    }
+
+    .footer{
+        background-color: #1d1819;;
+        width: 360px;
+        height: 150px;
+       
+        /* position: fixed;  */
+    }
+    .cards{
+        display: block;
+    }
+    .card{
+        width: 100%;
+    }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="italy.css">
+    <title>Jack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="glav" id="home">
+    <header>
+          <nav class="navbar">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <a href="index.html" class = "jack">JACK</a>
+            <div class="menu">
+              <li><a href="#italya">Италия</a></li>
+              <li><a href="#goroda">Города</a></li>
+              <li><a href="#gory">Горы</a></li>
+              <li><a href="#muzei">Музеи</a></li>
+            </div>
+              <!-- <h1>JACK</h1>
+              <a href="#home" class = "jack">JACK</a> -->
+            </nav>
+            
+      </header>
+
+      <div class="glav" id="home"> 
+        <div class="image-container">
+            <img src="italy.jpg" alt="">
+            <div class="textitaly" id="textitaly">
+                <h1>Италия</h1>
+                <p>Добро пожаловать</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+
+<div class="italy" id="italya">
+    <div class="italy-container">
+    <p id="italytext-1"> <span class="spanitaly" >Италия</span>  – удивительная страна, в которой переплелись история и современность, различные эпохи и богатое культурное наследие, традиции и самобытность. Памятники старины времен Рима, очаровывающая романтика Венеции, холмистая панорама Тосканы, южные склоны Альп, чудесная природа, солнце, море, воздух – всё это Италия! Имеющая уникальное географическое расположение в центральной части Средиземноморья, она стала колыбелью европейской цивилизации. Здесь, на Апеннинах, зародилась древняя Римская империя, давшая миру знаменитых ученых, талантливых художников и самое большое число достопримечательностей, составивших золотой фонд Всемирного наследия ЮНЕСКО.</p>
+    <img src="map3.png" id="italyimg-1" alt="">
+</div>
+
+<div class="priroda-container" id="prirodaid">
+    <h3>Природа</h3>
+    <p>Итальянская Республика занимает Апеннинский полуостров, имеющий знакомую всем по урокам географии форму сапога, небольшую часть Балкан, Падано-Венецианскую равнину, острова Сицилия и Сардиния, ряд небольших островов, а также южные склоны Альпийских гор. Территория страны – 309 547 кв. км. По этому показателю Италия находится на 11-м месте в Европе, а в мире на 71-м. Однако, несмотря на компактность, ее можно назвать одной из самых живописных стран в мире. Роскошь, красота и разнообразие – таких эпитетов достойна природа Италии. Здесь произрастает множество вечнозеленых растений, и всё благодаря мягкому субтропическому климату, свойственному этой части Средиземного моря.</p>
+    
+    <div class="photopri-container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+    
+      <div class="photopriroda">
+        <div class="row">
+            <div class="column">
+              <img src="mountain11.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="mountain2.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="mountain3.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="mountain4.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+            </div>
+          </div>
+
+    </div>
+</div>
+
+<div class="istorya-container" id="storya">
+    <div class="istorya-img">
+        <img src="istorya1.jpg" alt="">
+    </div>
+
+    <div class="istorya1-container">
+    <h2>История</h2>
+    <p>Италия может гордиться своим богатейшим прошлым: ее история насчитывает свыше 2500 лет. Интересная игра цифр и дат: если в V веке до н. э. только-только начала зарождаться могущественная Римская империя, то к V веку уже нашей эры она достигла своего расцвета, заняв огромные территории и в Европе, и в Азии, и даже в Северной Африке. На исходе того же V столетия Апеннинский полуостров был захвачен германскими, остготскими и готскими племенами, обосновавшимися здесь на несколько веков. Затем на территории, которую занимает современная Италия, начали появляться богатые города-государства: Венеция, Генуя, Ареццо, Милан, Пиза, Флоренция, Пьяченца. Эти коммуны спокойно и безмятежно просуществовали до середины XV века, пока захватническую активность не стали проявлять соседние страны, пожелавшие расширить свои владения за счет Апеннин.</p>
+   </div>
+</div>
+</div>
+
+
+<div class="goroda" id="goroda">
+    <div class="goroda-container">
+        <p id="textgorod"><span class="spanitaly">Рим</span> самый романтичный уголок Европы, расположенный на северном побережье Адриатического моря в Италии. Величественная архитектура, неповторимая атмосфера свободы и легкости, оживленные лабиринты улиц – все это создает уникальный ансамбль, который обязательно нужно увидеть, услышать, ощутить. Большая часть «города на воде» расположена на островах в Венецианской лагуне, которые соединены между собой огромным количеством мостов. Весь исторический центр Венеции включен в список культурного наследия ЮНЕСКО, и это неудивительно, ведь здесь сохранились образцы архитектуры XIV–XVI веков.</p>
+        <img src="https://proprikol.ru/wp-content/uploads/2019/10/krasivye-kartinki-rima-31.jpg" id="gorodimgid" alt="">
+    </div>
+    <div class="goroda-container">
+        <p id="textgorod"><span class="spanitaly">Венеция</span> — столица Италии, один из старейших городов мира и древняя столица Римской империи. Туристы с трудом могут устоять перед оглушительным шумом, суетой и оживлением нового Рима, перемежающимися с тихими и безмятежными островками старого города. Вот уже 2500 лет Рим является политическим и экономическим центром, и именно этот факт определяет его характер (Статья: История Рима). Ни один турист не уедет отсюда разочарованным, чем бы он ни занимался – шоппингом на улице Виа Венето, посещением античных памятников, знакомством с церквами, осмотром произведений искусств или просто наслаждаться dolce vita.</p>
+        <img src="https://img-fotki.yandex.ru/get/55633/234433779.456/0_154fe8_ccbd3e3d_XXL.jpg" id="gorodimgid" alt="">
+    </div>
+    <div class="goroda-container">
+        <p id="textgorod"><span class="spanitaly">Милан</span> -второй по величине город Италии, ее важный торговый, экономический и научный центр. Милан – признанный центр моды и стиля, однако это только одна из сторон города. Буквально с первых минут можно ощутить его отличие от древнего и торжественного Рима – здесь кипит активная жизнь, подписываются договоры, создаются компании, открываются новые отрасли производства. Однако в то же время на всем лежит явный отпечаток славной истории. Те, кто приезжает сюда впервые, будут поражены многоликостью города – старина и современность переплелись настолько тесно, что без какой-либо детали, будь то офисное здание или средневековая статуя, этот ансамбль не будет полноценным.</p>
+        <img src="https://traveltimes.ru/wp-content/uploads/2021/06/i_3.jpg" id="gorodimgid" alt="">
+    </div>
+    <div class="goroda-container">
+        <p id="textgorod"><span class="spanitaly">Флоренция,</span> гордость Италии и один из красивейших городов мира, раскинулась в просторной долине, пересеченной рекой Арно. Город расположен на севере страны, являясь административным центром исторического региона Тоскана. С севера и востока к Флоренции подступают отроги Апеннинских гор, достигающие километровой высоты. Горы и зеленые холмы, окружающие город, великолепно оттеняют красоту горделивых флорентийских церквей и роскошных дворцов, составляя невероятной красоты пейзажи.</p>
+        <img src="https://set-travel.com/wp-content/uploads/2019/12/da55c2583658b085f84c9a298a432832_xl.jpg" id="gorodimgid" alt="">
+    </div>
+    
+</div>
+     
+
+<div class="gory" id="gory">
+       
+    <div class="gory-container" id="gory-container">
+
+     
+        <div class="column" id="goryimgid1">
+          <div class="card" id="cardgory">
+            <img src="https://mota.ru/upload/resize/1440/900/upload/wallpapers/source/2010/09/09/12/00/23071/mota_ru_0101414-eb3.jpg"  alt="" style="width:100%">
+            <div class="g-container">
+              <h2 id="goryh">Вулкан Везувий</h2>
+              <p>Везувий – грозный, мощный, навевающий страх, трепет и одновременно благоговейное уважение – относится к числу самых известных на Земле вулканов. Его высота составляет 1281 м. Расположенный на юге Апеннинского полуострова, на берегу Неаполитанского залива, Везувий, вместе с Этной на острове Сицилия и Стромболи на Липарских островах, является одним из трех действующих вулканов Италии. При этом он единственный на континенте, расположенный в материковой части Старого света. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column" id="goryimgid2">
+          <div class="card">
+            <img src="https://gdenahoditsya.ru/wp-content/uploads/2019/07/s12vsdaargarga00.jpg"  alt="" style="width:100%">
+            <div class="g-container">
+              <h2 id="goryh1">Вулкан Этна</h2>
+              <p>Этна — самый большой и высокий вулкан Европы окружностью 140 км занимает площадь эллиптической формы примерно 1,4 тыс. кв. км. Над слегка наклоненным плато высотой 2900 м высится конусообразная вершина, ее высота из-за вулканической активности меняется - сегодня она равна 3369 м.В природном парке Этны почва содержит много минералов и потому исключительно плодородна; различные растительные зоны расположены кругами на конусе горы. В 1981 г. территория вокруг горы была объявлена природным заповедником. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column" id="goryimgid3" >
+          <div class="card">
+            <img src="https://s1.1zoom.ru/big0/247/Italy_Mountains_Forests_Houses_Grasslands_Scenery_540252_1280x815.jpg" alt="" style="width:100%">
+            <div class="g-container">
+              <h2 id="goryh">Альпы</h2>
+              <p>Альпы – доминирующий горный хребет Западной Европы, увенчанный вздымающимися прямо к небесам заснеженными пиками, и протянувшийся извилистым полумесяцем от Средиземного моря до Среднедунайской равнины. Альпийские горы распростерлись на значительных территориях восьми государств, став неотъемлемой частью их ландшафтов, пейзажей, культуры и традиций народов, издавна населяющих массивы.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+     </div>
+
+     <div class="muzeim">
+     <div class="muzei" id="muzei">
+       
+      <div class="muzei1" id="muzei1">
+        <div class="muzei-container" id="muzei-container">
+         <h2>Галерея Уффици</h2>
+         <p id="muzei-title">Галерея Уффици во Флоренции – один из самых посещаемых художественных музеев мира. Здесь собраны уникальные произведения искусства: картины художников от Средневековья до наших дней, прекрасно сохранившиеся античные скульптуры, гобелены и миниатюры.</p>
+       </div>
+
+       <div class="mezeiphoto-container" id="mezeiphoto-container">
+         <img src="https://image.kkday.com/v2/image/get/s1.kkday.com/product_8003/20191106083717_zmGK7/jpg" id="mezeiphotoid" alt="">
+       </div>
+      </div>
+    </div>
+
+       
+      <div class="muzei2" id="muzei2">
+        <div class="mezeiphoto1-container" id="mezeiphoto1-container">
+          <img src="https://wikiway.com/upload/hl-photo/7e7/galereya_akademii_37.jpg" id="mezeiphotoid1" alt="">
+        </div>
+        <div class="muzei1-container" id="muzei11-container">
+         <h2>Галерея Академии</h2>
+         <p id="muzei-title2">Галерея или Музей Академии — крупнейший художественный музей Венеции, в котором хранится самая большая коллекция картин художников венецианской школы живописи, творивших в XIV-XVIII веках. Здание музея находится на южном берегу Гранд-канала, и его посещение стремится включить в свою культурную программу большинство туристов, приезжающих в город на воде.</p>
+       </div>
+      </div>
+
+        <div class="muzei3">
+          <div class="muzei3-container" id="muzei3-container">
+           <h2>Музей Феррари в Маранелло</h2>
+           <p id="muzei-title3">Музей Феррари в Маранелло привлекает в этот небольшой итальянский городок тысячи туристов, желающих в живую увидеть знаменитую «Конюшню». Музей был основан в 1990 году под названием «Галерея Ferrari». Здесь представлены 40 моделей марки, изображения и трофеи, которые составляют бренд.</p>
+         </div>
+         <div class="mezeiphoto3-container" id="mezeiphoto3-container">
+           <img src="https://pbs.twimg.com/media/Du4ZAbCW4AUVXn6.jpg" id="mezeiphotoid3" alt="">
+         </div>
+        </div>
+
+      <div class="muzei4">
+        <div class="mezeiphoto4-container" id="mezeiphoto4-container">
+          <img src="https://avatars.mds.yandex.net/get-zen_doc/1895133/pub_5ca66b49d8f4e900b29bda25_5ca67013848ea400b2d02779/scale_1200" id="mezeiphotoid4" alt="">
+        </div>
+        <div class="muzei4-container" id="muzei4-container">
+         <h2>Музей науки и техники Леонардо да Винчи</h2>
+         <p id="muzei-title4">Галерея или Музей Академии — крупнейший художественный музей Венеции, в котором хранится самая большая коллекция картин художников венецианской школы живописи, творивших в XIV-XVIII веках. Здание музея находится на южном берегу Гранд-канала, и его посещение стремится включить в свою культурную программу большинство туристов, приезжающих в город на воде.</p>
+       </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="javascriptit.js"></script>
+   <script src="italy.js"></script> 
+</body>
+</html>

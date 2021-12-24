@@ -1,0 +1,652 @@
+*{
+    margin: auto;
+    scroll-behavior: smooth;
+    background: #fffec3;
+
+}
+
+
+.glav{
+    height: 100vh;
+   
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background: #000000; */
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px ; */
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    /* border-radius: 80px; */
+    /* font-size: 24px; */
+    /* padding-top: 25px; */
+   
+}
+/* .navbar .jack{
+    font-size: 28px;
+    letter-spacing: 10px;
+} */
+.navbar .jack{
+    font-size: 26px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+}
+.image-container img{
+    background-image: url("/italy.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    background-size: cover;
+}
+.textitaly {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 15px 50px;
+    margin: auto;
+}
+.textitaly p{
+    font-size: 26px;
+    background-color: black;
+}
+.textitaly h1{
+    background-color: black;
+}
+.navbar, .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar {
+    position: relative;
+    background-color: black;
+    /* padding: 20px; */
+    transition: 0.5s;
+    /* border-radius: 50px; */
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 17px 0;
+    background-color: black;
+    
+}
+
+.navbar input:checked ~ .menu {
+    width: 470px;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 10px;
+    background-color: black;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+.navbar input {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.navbar span {
+    position: absolute;
+    left: 30px;
+    width: 30px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: white;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.navbar input:checked ~ span {
+    background-color: #f974a1;
+}
+
+.navbar span:nth-child(2) {
+    transform: translateY(-8px);
+}
+
+.navbar input:checked ~ span:nth-child(2) {
+    transform: translateY(0) rotate(-45deg);
+}
+.navbar span:nth-child(3) {
+    transform: translateY(8px);
+}
+
+.navbar input:checked ~ span:nth-child(3) {
+    transform: translateY(0) rotate(45deg);
+}
+.italy{
+    height: 220vh;
+    /* background: #fffec3; */
+    /* background-color: rgb(228, 253, 137); */
+}
+ .spanitaly{
+    font-weight: 700;
+    font-size: 26px;
+}
+.italy .italy-container{
+    display: flex;
+
+}
+.italy .italy-container p{
+    /* padding: 10px 200; */
+    padding-right: 260px;
+    padding-left: 90px;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 110px;
+    /* text-align: justify; */
+}
+.italy .italy-container img{
+    height: 370px;
+    width: 650px;
+    padding-right: 70px;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.italy .priroda-container{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 80px 90px;
+}
+/* .italy .priroda-container .photopri-container{
+    
+    padding: 0px 200px;   
+} */
+/* .italy .priroda-container .photopriroda {
+    padding: 0 200px;
+
+} */
+.italy .priroda-container p{
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+#expandedImg{
+    height: 650px;
+}
+.italy .priroda-container h3{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.photopriroda .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+  
+  /* Style the images inside the grid */
+.photopriroda .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+  
+.photopriroda .column img:hover {
+    opacity: 1;
+}
+  
+  /* Clear floats after the columns */
+.photopriroda .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* The expanding image container */
+.photopri-container {
+    position: relative;
+    display: none;
+}
+  
+  /* Expanding image text */
+
+  
+  /* Closable button inside the expanded image */
+.photopri-container  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+ .istorya-container{
+      display: flex;
+      padding-top: 70px;
+}
+.istorya-container .istorya-img img{
+      border-radius: 80px;
+      height: 60%;
+      width: 80%;
+      /* padding-left: 50px; */
+      margin-left: 50px;
+
+}
+.istorya-container .istorya1-container{
+    width: 790px;
+    padding-right: 90px;
+    text-align: justify;
+    font-size: 18px;
+
+}
+.goroda .goroda-container img{
+    height: 340px;
+    width: 540px;
+    border-radius: 30px;
+}
+.goroda .goroda-container{
+    padding: 50px 0;
+    display: flex;
+}
+.goroda .goroda-container p{
+    width: 700px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+    
+}
+.goroda{
+    padding: 10px 0;
+    /* background: #fffec3; */
+}
+#textgorod{
+    padding: 50px 0;
+}
+.gory {
+    font-family:  sans-serif;
+    margin: 0;
+    /* background: #fffec3; */
+  }
+  
+  .gory .gory-container {
+    box-sizing: border-box;
+  }
+/*   
+  *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+  
+  .gory .gory-container .column {
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 16px;
+    padding: 0 15px;
+  }
+  
+  .gory .gory-container .card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    margin: 3px;
+  }
+  
+  
+  
+  .gory .gory-container .g-container {
+    padding: 10px 8px;
+  }
+  
+  .gory .gory-container .g-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.gory .gory-container{
+    padding-top: 110px;
+  
+}  
+.gory .gory-container .titlegory h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+
+}
+#goryh{
+    padding: 10px 0;
+}
+#goryh1{
+    padding: 4px 0;
+}
+.gory{
+    height: 110vh;
+}
+#muzei-title{
+    text-align: justify;
+ 
+}
+#muzei-title1, 
+#muzei-title2, 
+#muzei-title3, 
+#muzei-title4{
+    text-align: justify;
+}
+
+.muzei .muzei1{
+    display: flex;
+    float: left;
+    padding-top: 180px;
+}
+#mezeiphotoid{
+    height: 55%;
+    width: 65%;
+    border-radius: 25px;
+   float: right;
+   margin-right: 70px;
+}
+.muzei .muzei-container{
+    padding-left: 60px;
+    width: 970px;
+}
+.muzei2{
+    display: flex;
+    /* float: left; */
+    /* padding-top: 160px; */
+    padding-top: 40px;
+}
+.muzei3{
+    display: flex;
+    height: 80vh;
+}
+.muzei4{
+    display: flex;
+    padding-bottom: 80px;
+}
+.muzei{
+    height: 85vh;
+}
+
+#muzei11-container{
+    padding-right: 100px;
+    width: 970px;
+}
+#muzei3-container{
+    padding-right: 100px;
+    width: 970px;
+}
+#muzei4-container{
+    padding-right: 100px;
+    width: 970px;
+}
+#mezeiphotoid1{
+    height: 55%;
+    width: 65%;
+    border-radius: 25px;
+    /* padding-left: 25px; */
+    margin-left: 58px;
+}
+#mezeiphotoid4{
+    height: 55%;
+    width: 65%;
+    border-radius: 25px;
+    /* padding-left: 25px; */
+    margin-left: 58px;
+
+}
+#mezeiphotoid3{
+    height: 55%;
+    width: 65%;
+    border-radius: 25px;
+    /* padding-left: 25px; */
+    /* margin-left: 58px; */
+    float: right;
+    margin-right: 60px;
+
+}
+#muzei3-container{
+    padding-left: 60px;
+}
+/* .muzeim{
+    background: #fffec3;
+} */
+
+@media (max-width: 622px){
+    .italy .italy-container{
+        display: block;
+        text-align: center;
+    }
+    #italytext-1{
+        width: 750px;
+        text-align: justify;
+        margin-left: -40px;
+        margin-top: -20px;
+    }
+    #italyimg-1{
+        height: 400px;
+        width: 500px;
+        /* margin-right: -8px; */
+        text-align: center;
+    }
+    #prirodaid{
+        width: 600px;
+        margin-left: -53px;
+        text-align: justify;
+    }
+    .goroda{
+        padding-top: 1100px;
+    }
+    #storya{
+        display: block;
+    }
+    .istorya-container .istorya1-container{
+        width: 500px;
+        margin-left: 45px;
+    }
+    .goroda .goroda-container{
+        display: block;
+    }
+    #textgorod{
+        width: 418px;
+    }
+    #gorodimgid{
+        height: 300px;
+        width: 410px;
+        margin-left: 34px;
+    }
+    /* #goryimgid3{
+        padding-top: 1300px;
+    } */
+    #goryimgid1, #goryimgid2,#goryimgid3{
+        width: 450px;
+        margin-left: 16px;
+    }
+    #muzei1{
+        display: block;
+        width: 500px;
+        /* margin-top: 400px; */
+    }
+    #muzei2{
+        /* display: block; */
+        /* padding-top: 1000px; */
+        /* margin-top: 600px */
+        /* text-align: center; */
+        /* margin-left: -490px; */
+        /* width: 500px; */
+        padding: 0 30px;
+        /* margin-left: -10px; */
+    }
+    #muzei-container{
+        width: 450px;
+        margin-left: -25px;
+    }
+    #mezeiphotoid{
+        height: 270px;
+        width: 400px;
+        padding-top: 20px;
+        padding-left: 14px;
+    }
+    #mezeiphotoid1{
+        margin-top: 430px;
+        margin-left: -5px;
+    }
+    #muzei11-container{
+        margin-left: -450px;
+        z-index: 1;
+        padding-left: 30px;
+        margin-top: 110px;
+
+    
+    }
+    #muzei-title2{
+        width: 400px;
+    }
+    .muzei3{
+        padding-top: 120px;
+    }
+    #mezeiphotoid1{
+        height: 270px;
+        width: 400px;
+        /* padding-top: 20px;
+        padding-left: 14px; */
+        /* width: 400px;
+        margin-top: 520px;
+        left: 0; */
+
+        /* margin-left: 500px; */
+    }
+    .muzei3{
+        display: block;
+    }
+    #muzei3-container{
+        width: 560px;
+    }
+    #mezeiphotoid3{
+        height: 270px;
+        width: 400px;
+        margin-right: 35px;
+        /* padding-bottom: 200px; */
+    }
+    #muzei3-container{
+        /* margin-left: -20px; */
+    }
+    #mezeiphotoid4{
+        margin-top: 1200px;
+        /* height: 270px; */
+        /* width: 0px; */
+    }
+    .muzeim .muzei4 .muzei4-container p{
+    width: 400px;
+    margin-left: -20px;
+    }
+    .muzeim .muzei4 .muzei4-container{
+        margin-right: 15px;
+        padding-top: 200px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  } */

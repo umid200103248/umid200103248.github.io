@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    color: white;
+    background-image: url(https://wallpapershome.ru/images/wallpapers/macos-big-sur-5120x2880-23117.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.quote{
+    /* width: 1400px; */
+    height: 200px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 0, 0.74), 0 0 25px rgba(255, 255, 0, 0.699), 0 0 5px rgba(255, 255, 0, 0.719);
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    background-color: black;
+   border-bottom: 2px solid #ffffff69;
+    color: white;
+    position: fixed;
+    min-width: 1530px;
+    margin-top: -102px;
+}
+
+
+
+/* * {box-sizing: border-box;} */
+form {
+  width: 150px;
+}
+
+
+button {
+  height: 36px;
+  width: 36px;
+  position: absolute;
+  top: 17px;
+  right: 25px;
+  background: #000000;
+  cursor: pointer;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #F9F0DA;
+  font-size: 16px;
+}
+  
+  /* Dropdown button */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    font-size: 10px; 
+    font: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 400px;
+    left: 0;
+    z-index: 1;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0,0.4);
+    height: 250px;
+    /* margin-top: 25px; */
+  }
+  #column1 {
+    margin-top: 25px;
+      margin-left: 220px;
+    display: none;
+    /* float: left; */
+    width: 200px;
+    /* padding: 10px; */
+    background-color: rgb(0, 0, 0,0.4);
+    height:300px;
+  }
+  
+  /* Style links inside the columns */
+  .column a {
+    color: rgb(226, 176, 10);
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  #column1 a {
+    color: rgb(226, 176, 10);
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  /* Add a background color on hover */
+  .column a:hover, #column1 a:hover {
+    background-color: #ddd;
+  }
+
+
+
+                /* The main part of project */
+.main{
+    margin: 100px 10px 0 10px;
+}
+
+
+
+.spain, .france, .italy, .oae, .turkey, .japan{
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0,0.1);
+}
+
+.info{
+    display: flex;
+}
+.info img{
+    box-shadow: 1px 1px 2px rgb(1, 1, 1);
+}
+.spain #country , .france #country1, .italy #country3, .oae #country4, .turkey #country5, .japan #country6{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 380px;
+    height: 280px;
+    border-radius: 20px;
+    opacity: 1;
+}
+.text{
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.main h1{
+    text-align: center;
+    color: rgb(7, 7, 7);
+    text-shadow: 0px 0px 0px rgba(255, 255, 0, 0.74), 0 0 25px rgba(255, 255, 0, 0.699), 0 0 5px rgba(255, 255, 0, 0.719);
+}
+.info2{
+    margin: 0 10px 10px 0;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    opacity: 0.6;
+}
+.text2{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+/* Mobile site */
+
+label{
+    margin: 15px 0 0 20px;
+    font-size: 30px;
+}
+
+#toggle{
+    display: none;
+}
+@media(max-width: 600px){
+    .quote{
+    display: none ;       
+    }
+    .info{
+        display: block;
+    }
+    .spain #country , .france #country1, .italy #country3, .oae #country4, .turkey #country5, .japan #country6{
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 280px;
+        height: 180px;
+        border-radius: 20px;
+        opacity: 1;
+    }
+}
+ 
